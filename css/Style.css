@@ -432,6 +432,18 @@ footer {
     .gallery__image img{
         width: 220px;
     }
+
+    .modalcss {
+        width: 50%;
+        text-align: center; 
+    }
+    .modalcss img {
+        width: 100%; 
+        height: auto;
+        display: block; 
+        margin: 0 auto; 
+        place-content: center;
+    }
 }
 
 @media (max-width: 920px) {
@@ -439,6 +451,7 @@ footer {
         width: 210px;
     }
 }
+
 
 @media all and (max-width:980px){
     .aboutMe img {
@@ -468,6 +481,18 @@ footer {
         text-align: center;
         font-weight: lighter;
         padding-left: 70px;
+    }
+
+    .modalcss {
+        width: 100%;
+        text-align: center; 
+    }
+    .modalcss img {
+        width: 100%; 
+        height: auto;
+        display: block; 
+        margin: 0 auto; 
+        place-content: center;
     }
 }
 
@@ -559,10 +584,43 @@ footer {
         font-weight: lighter;
         padding-left: 70px;
     }
-
 }
 
+@media (max-width: 820px) {
+    .gallery__image img{
+        width: 250px;
+    }
 
+    .modalcss {
+        width: 100%;
+        text-align: center; 
+    }
+    .modalcss img {
+        width: 100%; 
+        height: auto;
+        display: block; 
+        margin: 0 auto; 
+        place-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery__image img{
+        width: 220px;
+    }
+
+    .modalcss {
+        width: 100%;
+        text-align: center; 
+    }
+    .modalcss img {
+        width: 100%; 
+        height: auto;
+        display: block; 
+        margin: 0 auto; 
+        place-content: center;
+    }
+}
 
 @media (max-width: 490px){
     #backgroundImage{
@@ -646,3 +704,121 @@ footer {
     }
 }
 
+@media (max-width: 540px) {
+    .gallery__image img{
+        width: 140px;
+    }
+
+    .modalcss {
+        width: 100%;
+        text-align: center; 
+    }
+    .modalcss img {
+        width: 100%; 
+        height: auto;
+        display: block; 
+        margin: 0 auto; 
+        place-content: center;
+    }
+}
+
+@media (max-width: 425px) {
+    .gallery__image img{
+        width: 180px;
+    }
+
+    .modalcss {
+        width: 80%;
+        text-align: center; 
+    }
+    .modalcss img {
+        width: 100%; 
+        height: auto;
+        display: block; 
+        margin: 0 auto; 
+        place-content: center;
+    }
+}
+
+@media (max-width: 393px) {
+    .gallery__image img{
+        width: 160px;
+    }
+
+    .modalcss {
+        width: 100%;
+        text-align: center; 
+    }
+    .modalcss img {
+        width: 100%; 
+        height: auto;
+        display: block; 
+        margin: 0 auto; 
+        place-content: center;
+    }
+}
+
+@media (max-width: 375px){
+
+    .gallery__image img{
+        width: 160px;
+    }
+
+    .modalcss {
+        width: 100%;
+        text-align: center; 
+    }
+    .modalcss img {
+        width: 100%; 
+        height: auto;
+        display: block; 
+        margin: 0 auto; 
+        place-content: center;
+    }
+
+    
+}
+
+@media (max-width: 360px) {
+    .gallery__image img{
+        width: 150px;
+    }
+
+    .modalcss {
+        width: 100%;
+        text-align: center; 
+    }
+    .modalcss img {
+        width: 100%; 
+        height: auto;
+        display: block; 
+        margin: 0 auto; 
+        place-content: center;
+    }
+}
+
+
+
+@media (max-width: 320px) {
+    .gallery__image img{
+        width: 130px;
+    }
+}
+
+@media (max-width: 280px) {
+    .gallery__image img{
+        width: 100px;
+    }
+
+    .modalcss {
+        width: 100%;
+        text-align: center; 
+    }
+    .modalcss img {
+        width: 100%; 
+        height: auto;
+        display: block; 
+        margin: 0 auto; 
+        place-content: center;
+    }
+}
