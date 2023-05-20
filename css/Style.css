@@ -1,0 +1,648 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section[id]{
+    scroll-margin-top: 40px;
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Nunito', sans-serif;
+    text-align:left;
+}
+
+button {
+    background: none;
+    border: 0;
+    color: inherit;
+    cursor: default;
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+
+
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    transition: 0.7s;
+
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+header.down{
+    transition: 0.7s;
+    background-color: #6312FA;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.modalcss {
+    width: 40%;
+    text-align: center; 
+}
+
+.modalcss::backdrop {
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.modalcss img {
+    max-width: 100%; 
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+    place-content: center;
+}
+
+.modalcss button {
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+    background-color: #2d2d2d;
+    border-radius: 10%;
+    padding: 8px;
+
+    display: block; 
+    margin: 10px auto 0;
+}
+
+.modalcss button:hover {
+    background-color: #6312fa;
+}
+
+.modalcss h1 {
+    color: #6312FA;
+}
+
+.modalcss p {
+    color: black;
+}
+
+.header__menu a{
+    font-weight: 600;
+    text-decoration: none;
+    color: white
+}
+
+.header__menu__nav {
+    font-size: large;
+    margin-right: 35px;
+}
+
+.nav__link {
+    padding: 5px;
+}
+
+.header__menu nav a:hover {
+    color:#6312FA;
+    font-weight: bold;
+    background-color: white;
+    border: #6312FA;
+    border-radius: 10%;
+}
+
+.logo {
+    margin-left: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+#backgroundImage{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.backgroundText {
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    text-align: center;
+
+    margin-top: 35%;
+    width: 100%;
+    display: grid;
+    place-content: center;
+}
+.backgroundText__title {
+    margin: 0;
+}
+
+.portfolio h1 {
+    padding: 30px;
+}
+
+.portfolio h2 {
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+
+.gallery{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}   
+
+.gallery__image {
+    text-align: center
+}
+
+.gallery__image img{
+    width: 500px;
+    padding: 10px;
+}
+
+.gallery__image p {
+    color: #6312FA;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.description {
+    padding: 0;
+    margin: 5px;
+    box-sizing: border-box;
+    background-color: #f4f1f1;
+    box-shadow: rgb(186, 186, 186) 5px 5px 10px;
+} 
+
+.description {
+    transition: transform 0.2s ease-in-out;
+}
+
+.description:hover {
+    transform: scale(1.02);
+}
+
+
+.aboutMe {
+    clear: left;
+    background-color: #2d2d2d;
+    color: white;
+    overflow: auto;
+
+    margin-top: 80px;
+    padding-top: 20px;
+}
+
+.aboutMe img {
+    float: left;
+    width: 300px;
+    margin-left: 100px;
+}
+
+.aboutMe p {
+    text-align: justify;
+    padding-right: 100px;
+    padding-left: 450px;
+}
+
+.aboutMe h2 {
+    text-align: center;
+    clear: left;
+    padding-top: 50px;
+}
+
+.aboutMe__softwares {
+    list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.softwareDescription {
+    padding: 20px;
+    padding-right: 50px;
+    text-align: center;
+}
+.aboutMe__softwares img {
+    width: 100px;
+    justify-content: left;
+}
+.aboutMe__softwares h3 {
+    justify-content: center;
+    text-align: center;
+    font-weight: lighter;
+    padding-left: 70px;
+}
+
+#contact__title {
+    padding-top: 50px;
+}
+
+form {
+    width: 450px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px
+}
+
+input, textarea, label{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+form button{
+    padding: 10px;
+    color: white;
+    background-color: #2d2d2d;
+    width: 100%;
+    text-align: center
+    
+}
+
+form button:hover {
+    background-color: #6312FA;
+}
+
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icons img {
+    width: 50px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+
+
+footer {
+    position: relative;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    background-color: #2d2d2d;
+    color: #fcfff3;
+    }
+
+.modalcss p {
+    color: black;
+    text-align:justify;
+}
+
+@media (max-width: 2100px){
+    .gallery__image img{
+        width: 650px;
+        padding: 10px
+    }
+}
+
+@media (max-width: 2010px){
+    .gallery__image img{
+        width: 635px;
+    }
+}
+
+@media (max-width:1967px){
+    .gallery__image img{
+        width: 610px;
+    }
+}
+
+@media (max-width: 1891px ) {
+    .gallery__image img{
+        width: 590px;
+    }
+}
+
+@media (max-width: 1831px) {
+    .gallery__image img{
+        width: 560px;
+    }
+}
+
+@media (max-width: 1741px) {
+    .gallery__image img{
+        width: 410px;
+    }
+}
+
+@media (max-width: 1698px) {
+    .gallery__image img{
+        width: 390px;
+    }
+}
+
+@media (max-width: 1629px) {
+    .gallery__image img{
+        width: 370px;
+    }
+}
+
+@media (max-width: 1547px) {
+    .gallery__image img{
+        width: 360px;
+    }
+}
+
+@media (max-width: 1508px) {
+    .gallery__image img{
+        width: 350px;
+    }
+}
+
+@media (max-width: 1469px) {
+    .gallery__image img{
+        width: 340px;
+    }
+}
+
+@media (max-width: 1420px) {
+    .gallery__image img{
+        width: 330px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .gallery__image img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 1289px) {
+    .gallery__image img{
+        width: 380px;
+    }
+}
+
+@media (max-width: 1201px) {
+    .gallery__image img{
+        width: 270px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .gallery__image img{
+        width: 240px;
+    }
+}
+
+@media (max-width: 1031px) {
+    .gallery__image img{
+        width: 220px;
+    }
+}
+
+@media (max-width: 920px) {
+    .gallery__image img{
+        width: 210px;
+    }
+}
+
+@media all and (max-width:980px){
+    .aboutMe img {
+        float: left;
+        width: 275px;
+        margin-left: 100px;
+    }
+    
+    .aboutMe p {
+        font-size: 90%;
+        text-align: justify;
+        padding-right: 100px;
+        padding-left: 450px;
+    }
+
+    .softwareDescription {
+        padding: 20px;
+        padding-right: 50px;
+        text-align: center;
+    }
+    .aboutMe__softwares img {
+        width: 100px;
+        justify-content: left;
+    }
+    .aboutMe__softwares h3 {
+        justify-content: center;
+        text-align: center;
+        font-weight: lighter;
+        padding-left: 70px;
+    }
+}
+
+@media all and (max-width:870px) {
+
+    header {
+        flex-direction: column;
+        padding-left: 60px;
+    }
+    nav {
+        padding: 0px 0px;
+    }
+    .logo img {
+        display: none;
+    }
+
+    header.down {
+        transition: 0.7s;
+        background-color: #6312FA;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    
+    header.down h2 {
+        padding: 1px 0px;
+        display: none;
+    }
+
+    .gallery__image img {
+        width: 220px;
+        padding: 10px;
+    }
+
+    .aboutMe img {
+        float: left;
+        width: 260px;
+        margin-left: 100px;
+    }
+    
+    .aboutMe p {
+        font-size: 75%;
+        text-align: justify;
+        padding-right: 150px;
+        padding-left: 450px;
+    }
+
+    .softwareDescription {
+        padding: 20px;
+        padding-right: 50px;
+        text-align: center;
+    }
+    .aboutMe__softwares img {
+        width: 90px;
+        justify-content: left;
+    }
+    .aboutMe__softwares h3 {
+        justify-content: center;
+        text-align: center;
+        font-weight: lighter;
+        padding-left: 70px;
+    }
+
+}
+
+@media (max-width: 840px){
+    #silvericon {
+        display: none;
+    }
+    
+
+    .aboutMe p {
+        padding-left: 160px;
+        font-size: 70%;
+        text-align: justify;
+    }
+
+    .softwareDescription {
+        padding: 20px;
+        padding-right: 50px;
+        text-align: center;
+    }
+    .aboutMe__softwares img {
+        width: 70px;
+        justify-content: left;
+    }
+    .aboutMe__softwares h3 {
+        justify-content: center;
+        text-align: center;
+        font-weight: lighter;
+        padding-left: 70px;
+    }
+
+}
+
+
+
+@media (max-width: 490px){
+    #backgroundImage{
+        width: 150%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .backgroundText {
+        font-family: 'Nunito', sans-serif;
+        font-weight: lighter;
+        font-size: 10px;
+        color: white;
+        position: absolute;
+        text-align: center;
+    
+        margin-top: 60%;
+        width: 150%;
+        display: grid;
+        place-content: center;
+    }
+    .backgroundText__title {
+        margin: 0;
+    }
+
+    .portfolio {
+        width: 150%;
+    }
+
+    .gallery__image img {
+        width: 150px;
+        padding: 10px;
+    }
+
+    #aboutMe {
+        width: 150%;
+    }
+    .aboutMe p {
+        padding-left: 160px;
+        font-size: 100%;
+        text-align: justify;
+    }
+
+    .softwareDescription {
+        padding: 20px;
+        padding-right: 50px;
+        text-align: center;
+    }
+    .aboutMe__softwares img {
+        width: 90px;
+        justify-content: left;
+    }
+    .aboutMe__softwares h3 {
+        justify-content: center;
+        text-align: center;
+        font-weight: lighter;
+        padding-left: 50px;
+    }
+    form{
+        padding-left: 150px;
+        justify-content: center;
+        text-align: center;
+        width: 120%;
+        place-content: center;
+    }
+
+    .icons {
+        width: 150%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .icons img {
+        width: 50px;
+        padding: 10px;
+        padding-left: 10px;
+    }
+
+    footer {
+        width: 150%;
+    }
+}
+

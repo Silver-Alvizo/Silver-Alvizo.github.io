@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css\Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="icon" type="image/jpg" href="assets\img\silverCaraLogoPlaceHolder.jpg">
+    <title>Silver Alvizo</title>
+    <meta name="viewport" content="width=device-width, initial-sacale=1">
+</head>
+<body>
+    <header class="header__menu">
+        <a href="" class="logo"> <img src="assets\img\silverCaraLogoPlaceHolder.jpg" alt="Silver Alvizo">
+        <h2 class="logo__nombre">Silver Alvizo</h2>
+        </a>
+        <nav class="header__menu__nav">
+            <a href="#" class="nav__link">Inicio</a>
+            <a href="#portfolio" class="nav__link">Portafolio</a>
+            <a href="#aboutMe" class="nav__link">Sobre mí</a>
+            <a href="#contact" class="nav__link">Contacto</a>
+        </nav>
+    </header>
+
+    <section>
+        <div class="backgroundText">
+            <h1 class = "backgroundText__title">Silver Daniel Alvizo Ascención</h1>
+            <h3 class = "backgroundText__title">Ingeniero en produción multimedia</h3>
+        </div>
+        <img id = "backgroundImage"src="assets\img\skull_render02Placeholder.png" alt="Skull reder">
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h1>Portafolio</h1>
+        <h2>Lista de proyectos</h2>
+        <ul class="gallery">
+            <li class="gallery__image">
+                <div class="description">
+                    <button id="btn-open-modal">
+                        <img src="assets\img\tribal_girlPlaceholder.png" alt="">
+                        <p>Tribal girl</p>
+                    </button>
+                </div>
+
+                <dialog  id="modal" class="modalcss">
+                    <h1>Tribal girl</h1>
+                    <img src="assets\img\tribal_girlPlaceholder.png" alt="">
+                    <p>Personaje 3D creado a partir del concepto de <a href="https://www.artstation.com/artwork/e00LQY" target="_blank">chui sanhua</a>, sofware utilizado: Zbrush y Bleder.</p>
+                    <button id="btn-close-modal">Cerrar</button>
+                </dialog>
+            </li>
+
+            <li class="gallery__image">
+                <div class="description">
+                    <button id="btn-open-modal02">
+                        <img src="assets\img\girl_RemderPlaceholder.png" alt="">
+                        <p>Casual girl</p>
+                    </button>
+                </div>
+
+                
+            <dialog id="modal02" class="modalcss">
+                <h1>Casual Girl</h1>
+                <img src="assets\img\girl_RemderPlaceholder.png" alt="">
+                <p>Personaje original. sofware usado: Zbrus, Blender y  Substance painter.</p>
+                <button id="btn-close-modal02">Cerrar</button>
+            </dialog>
+
+            </li>
+
+            <li class="gallery__image">
+                <div class="description">
+                    <button id="btn-open-modal03">
+                        <img src="assets\img\binacles_placeholder.png" alt="">
+                        <p>Stylized binacles</p>
+                    </button>
+                </div>
+
+                <dialog id="modal03" class="modalcss">
+                    <h1>Stylized binacles</h1>
+                    <img src="assets\img\binacles_placeholder.png" alt="">
+                    <p>Asset creado para videojuegos basado en el concepto de <a href="https://www.artstation.com/artwork/W2wPNQ">Mikael Yusifov</a> sofware utilizado: Blender, substance painter y Marmoset toolbag 4</p>
+                    <button id="btn-close-modal03">Cerrar</button>
+                </dialog>
+            </li>
+
+
+            <li class="gallery__image">
+                <div class="description">
+                    <button id="btn-open-modal04">
+                        <img src="assets\img\devil_boyPlacerholder.png" alt="">
+                        <p>Devil boy</p>
+                    </button>
+                </div>
+
+                <dialog id="modal04" class="modalcss">
+                    <h1>Devil boy</h1>
+                    <img src="assets\img\devil_boyPlacerholder.png" alt="">
+                    <button id="btn-close-modal04">Cerrar</button>
+                    <p>Devil boy hecho a partir del concepto de <a href="https://www.instagram.com/bluedot89/">bluedot89</a> sofware utilizado: Zbrush, Blender y Substance Painter.</p>
+                </dialog>
+            </li>
+
+            <li class="gallery__image">
+                <div class="description">
+                    <button id="btn-open-modal05">
+                        <img src="assets\img\skullRenderPlacerHolder.png" alt="">
+                        <p>Skull 02</p>
+                    </button>
+                </div>
+
+                <dialog id="modal05" class="modalcss">
+                    <h1>Skull02</h1>
+                    <img src="assets\img\skullRenderPlacerHolder.png" alt="">
+                    <p>Segundo render de el craneo que realize como praticade modelado. Sofware utlizado: Blender</p>
+                    <button id="btn-close-modal05">Cerrar</button>
+                </dialog>
+            </li>
+            
+            <li class="gallery__image">
+                <div class="description">
+                    <button id="btn-open-modal06">
+                        <img src="assets\img\skull_render02Placeholder.png" alt="">
+                        <p>Skull 01</p>
+                    </button>
+                </div>
+
+                <dialog id="modal06" class="modalcss">
+                    <h1>Skull01</h1>
+                    <img src="assets\img\skull_render02Placeholder.png" alt="">
+                    <p>Render realizado para practicar iluminación y texturizado en Blender. Sofware utilizao: Blender</p>
+                    <button id="btn-close-modal06">Cerrar</button>
+                </dialog>
+            </li>
+            
+        </ul>
+    </section>
+
+    <section  id="aboutMe" class="aboutMe">
+        <div>
+            <h1>Sobre mí</h1>
+            <img src="assets\img\silverCaraLogoPlaceHolder.jpg" alt="silver" id="silvericon">
+            <p>¡Hola! Soy Silver Daniel Alvizo Ascención, estudiante a punto de graduarme en Ingeniería en Producción Multimedia de la Universidad La Salle Victoria. Mi pasión radica en el campo de la animación y el modelado 3D. Actualmente, busco oportunidades para crecer y desarrollar mis habilidades en el ámbito profesional.</p>
+            <p>Poseo conocimientos sólidos en software de edición de imágenes y videos, como Adobe Premiere Pro, Photoshop y DaVinci Resolve. Además, he trabajado con diversos programas de modelado 3D, como Blender, ZBrush, Maya, 3ds Max, Cinema 4D, Marvelous Designer, Marmoset Toolbag 4 y Substance Painter.</p>
+            <p>Considero que mis mayores virtudes residen en mi creatividad, mi capacidad para adaptarme a diferentes equipos de trabajo y mi habilidad para encontrar soluciones a problemas técnicos. Soy una persona proactiva y puedo reaccionar rápidamente ante situaciones imprevistas. También soy extrovertido y sociable, y disfruto expresar mi punto de vista en temas que me apasionan.</p>
+            <p>Me gusta mantenerme actualizado por mi cuenta, estudiando nuevas tecnologías y corrientes de pensamiento en constante evolución. Estoy ansioso por enfrentar nuevos desafíos y contribuir con mi creatividad y habilidades técnicas en el mundo de la animación y el modelado 3D.</p>
+        </div>
+
+            <h2>Software</h2>
+            
+        <section>
+            <ul class="aboutMe__softwares">
+                <li class="softwareDescription">
+                    <div class="softwareDescription__container">
+                        <img src="assets/img/Zbrush_icon.ico" alt="Zbrush">
+                        <h3>Zbrush</h3>
+                    </div>
+                </li>
+                <li class="softwareDescription">
+                    <div class="softwareDescription__container">
+                        <img src="assets/img/Blender_icon.png" alt="Blender">
+                        <h3>Blender</h3>
+                    </div>
+                </li>
+                <li class="softwareDescription">
+                    <div class="softwareDescription__container">
+                        <img src="assets/img/Maya_icon.png" alt="Maya">
+                        <h3>Maya</h3>
+                    </div>
+                </li>
+                <li class="softwareDescription">
+                    <div class="softwareDescription__container">
+                        <img src="assets/img/3DSMax_icon.png" alt="3DSMax">
+                        <h3>3DSMax</h3>
+                    </div>
+                </li>
+                <li class="softwareDescription">
+                    <div class="softwareDescription__container">
+                        <img src="assets/img/Substance_icon.png" alt="Substance Painter">
+                        <h3>Substance Painter</h3>
+                    </div>
+                </li>
+                <li class="softwareDescription">
+                    <div class="softwareDescription__container">
+                        <img src="assets/img/marmoset_icon.png" alt="Marmoset Toolbag 4">
+                        <h3>Marmoset Toolbag 4</h3>
+                    </div>
+                </li>
+                <li class="softwareDescription">
+                    <div class="softwareDescription__container">
+                        <img src="assets/img/Marvelous_icon.png" alt="Marvelous Designer">
+                        <h3>Marvelous Designer</h3>
+                    </div>
+                </li>
+                <li class="softwareDescription">
+                    <div class="softwareDescription__container">
+                        <img src="/public/assets/img/photoshop_icon.png" alt="Photoshop">
+                        <h3>Photoshop</h3>
+                    </div>
+                </li>
+                <li class="softwareDescription">
+                    <div class="softwareDescription__container">
+                        <img src="assets/img/Premiere_icon.png" alt="Premier Pro">
+                        <h3>Premier Pro</h3>
+                    </div>
+                </li>
+                <li class="softwareDescription">
+                    <div class="softwareDescription__container">
+                        <img src="assets/img/unity_icon.png" alt="Unity">
+                        <h3>Unity</h3>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 id="contact__title">Contacto</h1>
+        <form action="https://formsubmit.co/20190198@ulsavictoria.edu.mx" method="POST">
+            <label><input type="text" name="name" required placeholder="Nombre"></label>
+            <label><input type="email" name="email" required placeholder="Correo"></label>
+            <label><input type="text" name="subject" required placeholder="Asunto"></label>
+            <label><textarea name="comments"cols="15" rows="5" placeholder="Mensaje"></textarea></label>
+            <button type="submit">Enviar</button>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="#contact">
+        </form>
+        <div class="icons">
+            <a href="https://www.artstation.com/elplatass" class="iconLink" target="_blank"> <img src="assets\img\artstation.svg" alt="Artstation"></a>
+
+            <a href="https://www.instagram.com/silver.alvizo/" class="iconLink" target="_blank"><img src="assets\img\instagram.svg" alt="instagram"></a>
+        </div>
+    </section>
+    
+    <footer class="footerPage" >
+        <p> 2023 | Silver Daniel Alvizo Ascención |</p>
+    </footer>
+    <script type="text/javascript" src="js\scripts.js"></script>
+</body>
+</html>
